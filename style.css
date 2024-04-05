@@ -47,6 +47,11 @@ form {
     cursor pointer;
 }
 
+.result{
+  display: grid;
+  
+}
+
 
 .footer, .content, .result{
     max-width: 1200px;
