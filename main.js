@@ -21,7 +21,7 @@ const searchElements = (event, nameElement) => {
     infoElement.innerHTML = `<p class="result__number-info">W tym dokumencie znalazłem ${elements.length} elementów <strong>${nameElement}</strong></p>`;
     showInfo(elements, infoElement);
   } else {
-    infoElement.innerHTML = `<p class="result__number-info">W tym dokumencie nie znalazłem elementów <strong>${nameElement}</strong></p>`;
+    infoElement.innerHTML = `<p class="result__info">W tym dokumencie nie znalazłem elementów <strong>${nameElement}</strong></p>`;
     return;
   }
 };

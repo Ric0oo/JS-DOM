@@ -47,6 +47,21 @@ form {
     cursor pointer;
 }
 
+.result{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.result__number-info{
+  grid-column: 1/4;
+  text-align: center;
+}
+
+.result__element-description{
+  border: 2px solid beige;
+  padding: 10px;
+}
 
 .footer, .content, .result{
     max-width: 1200px;
